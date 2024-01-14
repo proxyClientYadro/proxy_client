@@ -1,0 +1,88 @@
+.search-panel .search-input {
+    max-width: 18rem;
+    position: relative;
+}
+
+.search-panel label {
+    font-family: Nunito, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 5px 0 5px 0;
+    cursor: pointer;
+}
+
+.form-check-input {
+    margin-top: 0;
+}
+
+.checkbox {
+    width: 2rem;
+    height: 38px;
+    border: none;
+    cursor: pointer;
+}
+
+.downOne {
+    position: absolute;
+    top: 50px;
+    left: 290px;
+    width: 25px;
+    height: 25px;
+    z-index: 1120;
+    cursor: pointer;
+}
+
+.downTwo {
+    position: absolute;
+    top: 50px;
+    left: 629px;
+    width: 25px;
+    height: 25px;
+    z-index: 2220;
+    cursor: pointer;
+}
+
+.search-panel button {
+    outline: none;
+    border: none;
+    padding: 0;
+    z-index: 100;
+}
+
+
+.search-action {
+    display: none;
+    position: absolute;
+    width: 18rem;
+    height: 113px;
+    padding: 30px 0 30px 20px;
+    border-radius: 10px;
+    background: rgba(9, 49, 94, 0.4);
+    box-shadow: 0px -6px 32px -17px rgba(7, 22, 39, 1);
+    z-index: 999;
+    margin-top: 168px;
+}
+
+.search-action button {
+    padding: 0 0 5px 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-family: Nunito, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 19px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #3d5a80;
+}
+
+.button-menu-action-item {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: #686464;
+    font-size: 14px;
+    line-height: 19px;
+    margin-bottom: 15px;
+}

@@ -1,0 +1,11 @@
+.header {
+    position: relative;
+    background: #3d5a80;
+    padding: 40px;
+}
+
+.header img {
+    position: absolute;
+    bottom: 15px;
+    right: 45px;
+}

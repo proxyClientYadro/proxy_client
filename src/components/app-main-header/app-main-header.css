@@ -1,0 +1,16 @@
+.main-header {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.span-title {
+    font-family: Nunito, sans-serif;
+    font-weight: 800;
+    font-size: 43px;
+    margin: 50px 208px 0 305px;
+    padding: 0 19px 0 19px
+}
+
+.span-title:last-child {
+    margin-left: 168px;
+}

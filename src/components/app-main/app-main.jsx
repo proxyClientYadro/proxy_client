@@ -1,0 +1,26 @@
+import './app-main.css'
+import AppMainHeader from "../app-main-header/app-main-header";
+import AppMainListItem from "../app-main-list-item/app-main-list-item";
+import {ChevronDoubleLeftIcon, ChevronDoubleRightIcon} from "@heroicons/react/24/outline";
+
+const AppMain = ({data}) => {
+    const method = data.map(item => {
+        return (
+            <AppMainListItem {...item}/>
+        )
+    })
+
+    return (
+        <div>
+            <div className={'mb-5'}>
+                <AppMainHeader/>
+            </div>
+            <div className={'main'}>
+                {method}
+                <button><ChevronDoubleRightIcon className={'right'}/></button>
+                <button><ChevronDoubleLeftIcon className={'left'}/></button>
+            </div>
+        </div>
+    )
+}
+export default AppMain

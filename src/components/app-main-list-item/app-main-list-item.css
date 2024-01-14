@@ -1,0 +1,35 @@
+.item {
+    border-bottom: 1px solid #3d5a80;
+}
+
+.inputValue {
+    display: block;
+}
+
+.inputValue pre {
+    margin: 5px;
+    max-height: 280px;
+    padding: 2px;
+}
+
+.inputValue:hover {
+    box-shadow: 0px -6px 32px -17px rgba(7, 22, 39, 1);
+    transition: .5s ease-out;
+}
+
+.item .inputValue {
+    width: 350px;
+    margin: 25px 65px 25px 105px;
+}
+
+.item .item:last-child {
+    margin-left: 196px;
+}
+
+.item span {
+    font-family: Nunito, sans-serif;
+    font-weight: 700;
+    width: 225px;
+    font-size: 20px;
+    padding-top: 25px;
+}
