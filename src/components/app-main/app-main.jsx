@@ -5,8 +5,10 @@ import {ChevronDoubleLeftIcon, ChevronDoubleRightIcon} from "@heroicons/react/24
 
 const AppMain = ({data}) => {
     const rows = data.map(item => {
+        const {id, ...itemProps} = item
+
         return (
-            <AppMainListItem {...item}/>
+            <AppMainListItem key={id} {...itemProps}/>
         )
     })
 
