@@ -7,7 +7,7 @@ const AppMainListItem = ({name, proxy, core}) => {
         <div className="item d-flex">
             <span>{name}</span>
             <div className={'form-control inputValue'} placeholder={'Proxy'}
-            ><pre contentEditable={true}>{proxy}</pre></div>
+            ><pre>{proxy}</pre></div>
             <div className={'form-control inputValue'} placeholder={'Proxy'}
             ><pre>{core}</pre></div>
         </div>

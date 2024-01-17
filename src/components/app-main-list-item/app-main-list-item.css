@@ -12,10 +12,6 @@
     padding: 2px;
 }
 
-.inputValue:hover {
-    box-shadow: 0px -6px 32px -17px rgba(7, 22, 39, 1);
-    transition: .5s ease-out;
-}
 
 .item .inputValue {
     width: 350px;

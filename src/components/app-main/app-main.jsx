@@ -4,7 +4,7 @@ import AppMainListItem from "../app-main-list-item/app-main-list-item";
 import {ChevronDoubleLeftIcon, ChevronDoubleRightIcon} from "@heroicons/react/24/outline";
 
 const AppMain = ({data}) => {
-    const method = data.map(item => {
+    const rows = data.map(item => {
         return (
             <AppMainListItem {...item}/>
         )
@@ -16,7 +16,7 @@ const AppMain = ({data}) => {
                 <AppMainHeader/>
             </div>
             <div className={'main'}>
-                {method}
+                {rows}
                 <button><ChevronDoubleRightIcon className={'right'}/></button>
                 <button><ChevronDoubleLeftIcon className={'left'}/></button>
             </div>
