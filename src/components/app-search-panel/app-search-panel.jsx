@@ -26,10 +26,10 @@ const AppSearchPanel = () => {
             <button><ChevronDownIcon className={'addFilter'}/></button>
             <div className="search-action">
                 <div className="search-action-item">
-                    <button className="button-menu-action-item">Method</button>
+                    <button className="button-menu-action-item">Method1</button>
                 </div>
                 <div className="search-action-item">
-                    <button className="button-menu-action-item">Method</button>
+                    <button className="button-menu-action-item">Method2</button>
                 </div>
             </div>
         </div>
