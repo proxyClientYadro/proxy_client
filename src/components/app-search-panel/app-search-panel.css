@@ -46,15 +46,6 @@
 	cursor: pointer;
 }
 
-.addFilter {
-	position: absolute;
-	top: 33px;
-	right: 350px;
-	z-index: 22;
-	cursor: pointer;
-	font-size: 60px !important;
-}
-
 .search-icon {
 	position: absolute;
 	top: 25px;
@@ -70,6 +61,10 @@
 	border: none;
 	padding: 0;
 	z-index: 100;
+}
+
+.search-panel {
+	margin-bottom: 15px;
 }
 
 .search-action {

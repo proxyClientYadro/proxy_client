@@ -2,7 +2,6 @@ import {
 	ChevronDownIcon,
 	MagnifyingGlassCircleIcon,
 } from '@heroicons/react/24/solid'
-import { default as Add } from '@mui/icons-material/Add'
 import './app-search-panel.css'
 
 const AppSearchPanel = () => {
@@ -42,9 +41,7 @@ const AppSearchPanel = () => {
 			<button>
 				<MagnifyingGlassCircleIcon className={'search-icon'} />
 			</button>
-			<button>
-				<Add size='medium' className={'addFilter'} />
-			</button>
+
 			<div className='search-action'>
 				<div className='search-action-item'>
 					<button className='button-menu-action-item'>Method</button>
