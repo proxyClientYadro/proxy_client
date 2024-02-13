@@ -1,11 +1,34 @@
 .header {
-    position: relative;
-    background: #3d5a80;
-    padding: 40px;
+	position: relative;
+	background: #3d5a80;
+	padding: 40px;
 }
 
 .header img {
-    position: absolute;
-    bottom: 15px;
-    right: 45px;
+	position: absolute;
+	bottom: 15px;
+	right: 45px;
+}
+
+.button {
+	outline: none;
+	border: none;
+	padding: 0;
+}
+
+.addFilter {
+	position: absolute;
+	top: 33px;
+	right: 350px;
+	z-index: 22;
+	cursor: pointer;
+	font-size: 60px !important;
+}
+.closeFilter {
+	position: absolute;
+	top: 93px;
+	right: 350px;
+	z-index: 22;
+	cursor: pointer;
+	font-size: 50px !important;
 }
