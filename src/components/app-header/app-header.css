@@ -18,7 +18,7 @@
 
 .addFilter {
 	position: absolute;
-	top: 33px;
+	top: 38px;
 	right: 350px;
 	z-index: 22;
 	cursor: pointer;
@@ -26,8 +26,8 @@
 }
 .closeFilter {
 	position: absolute;
-	top: 93px;
-	right: 350px;
+	top: 109px;
+	right: 353.9px;
 	z-index: 22;
 	cursor: pointer;
 	font-size: 50px !important;

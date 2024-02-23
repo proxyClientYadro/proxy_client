@@ -4,7 +4,8 @@
 }
 
 .search-filter {
-	margin-left: 81px;
+	width: 18rem;
+	margin-left: 91px;
 }
 
 .search-panel label {
@@ -16,6 +17,8 @@
 }
 
 .form-check-input {
+	background-color: #3d5a80;
+	border: 1px solid #212529 !important;
 	margin-top: 0;
 }
 
@@ -48,12 +51,11 @@
 
 .search-icon {
 	position: absolute;
-	top: 25px;
-	left: 30px;
-	width: 70px;
-	height: 70px;
-	z-index: 2220;
+	top: 43px;
+	left: 53px;
+	z-index: 22;
 	cursor: pointer;
+	font-size: 55px !important;
 }
 
 .search-panel button {
